@@ -17,6 +17,10 @@ $student = new student();?>
 	}
 		
 ?>
+<?php
+	if(isset($_GET['action']) && $_GET['action']=='logout'){
+		Session::destroy();
+	} ?> 
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -114,21 +118,10 @@ $student = new student();?>
 				</form>
 			</div> -->
 			<ul class="agile_form" >
-				<li><a href="?action=logout" class="active"href="index.php" ><i class="fa fa-sign-in" aria-hidden="true"> Xin chào: <?= Session::get('student_name') ?> <span style="color: #002147;">&#8214;</span>
-			  		<?php
-                   if(isset($_GET['action']) && $_GET['action']=='logout'){
-                      Session::destroy();
-                   }
-               ?> Đăng Xuất</i>
-					
-							   <!-- 	<?php 
-							   	$login_check = Session::get('student_login');
-							   	if($login_check==false){
-							   		echo ' ';
-							   	}else{
-							   		echo '<a href="?id='.Session::get('id').'">Đăng xuất</a>';
-							   	}
-							   	?> -->
+				<li><a href="?action=logout" class="active"href="index.php" >
+					<i class="fa fa-sign-in" aria-hidden="true"> Xin chào: <?= Session::get('student_name') ?> <span style="color: #002147;">&#8214;</span>
+					  	
+           			</i> Đăng Xuất
 			</a> 
 				</li>
 			</ul>

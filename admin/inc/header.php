@@ -83,7 +83,7 @@
                 <!-- <li class="ic-form-style"><a href=""><span>Thông tin người dùng</span></a></li> -->
                 <li class="ic-typography"><a href="changepassword.php"><span>Đổi mật khẩu</span></a></li>
                 <!-- <li class="ic-grid-tables"><a href="inbox.php"><span>Hộp thư đến</span></a></li> -->
-                <li class="ic-charts"><a href="\webthuctapvnpt\webthuctap\"><span>Truy cập Website</span></a></li>
+                <li class="ic-charts"><a href="\webthuctapvnpt1\thuctapvnpt\"><span>Truy cập Website</span></a></li>
             </ul>
         </div>
         <div class="clear">

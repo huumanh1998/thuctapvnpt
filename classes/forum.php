@@ -39,8 +39,20 @@ class forum
             return $result;
         }
         public function show_forum(){
-            $query = "SELECT * FROM tbl_forum";
+            $query = "SELECT * FROM tbl_forum WHERE kiemtra = '1'";
             $result = $this->db->select($query);
+            return $result;
+        }
+        public function show_forum_admin(){
+            $query = "SELECT tbl_forum.*, tbl_student.name FROM tbl_forum INNER JOIN tbl_student ON tbl_forum.id = tbl_student.id ";
+            $result = $this->db->select($query);
+            return $result;
+        }
+         public function update_kiemtra($id,$kiemtra){
+
+            $kiemtra = mysqli_real_escape_string($this->db->link, $kiemtra);
+            $query = "UPDATE tbl_forum SET kiemtra = '$kiemtra' where forum_Id='$id'";
+            $result = $this->db->update($query);
             return $result;
         }
         public function insert_forum($data){
@@ -98,6 +110,7 @@ class forum
             }
             
         }
+        
        public function insert_binhluan($binhluan, $forum_Id){
             $adminId = Session::get('adminId') ? Session::get('adminId'):"";
             $id = Session::get('student_id') ? Session::get('student_id') : "";

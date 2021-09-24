@@ -40,6 +40,11 @@
                         <li><a href="viewfeedback.php">Danh sách đã phản hồi</a></li>
                     </ul>
                 </li>
+                 <li><a class="menuitem">Duyệt bài đăng</a>
+                    <ul class="submenu">
+                        <li><a href="check.php">Danh sách bài đăng</a></li>
+                    </ul>
+                </li>
                 <li><a class="menuitem">Bình luận</a>
                     <ul class="submenu">
                     <!--    <li><a href="cmtadmin.php">Phản hồi</a></li> -->

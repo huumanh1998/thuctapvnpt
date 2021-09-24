@@ -128,7 +128,7 @@
 								<th width="20%"style="text-align:center;">Miêu tả</th>
 								<th width="19%"style="text-align:center;">Tên file</th>
 								<th width="8%"style="text-align:center;">Ngày hẹn</th>
-								<th width="6%"style="text-align:center;">Ngày hẹn</th>
+								<th width="6%"style="text-align:center;">Địa điểm</th>
 								<th width="10%"style="text-align:center;">Ngày gửi</th>
 								<th width="6%"style="text-align:center;">Trạng thái</th>
 								<th width="6%"style="text-align:center;">Hoạt động</th>
