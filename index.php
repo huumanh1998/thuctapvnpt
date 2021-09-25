@@ -478,15 +478,7 @@
 </div>
 <!-- //team -->
 <!-- contact -->
-	<?php
-	 include "setting/config.php";
-	$general = $ravi->general_setting_check();
 	
-	$general_fetch = $general->fetch_assoc();
-	$general_numss = $general->num_rows;
-	if($general_numss>0)
-	{
-	?>
 <div id="mail" class="contact">
 	<div class="container">
 		<h3 class="w3l-title">Liên Hệ</h3>
@@ -608,7 +600,7 @@
 		<p> &copy 2021 UDCK</p>
 	</div>
 </div>
-<?php }?>
+
 
 <!-- js-scripts -->			
 <!-- js-files -->
