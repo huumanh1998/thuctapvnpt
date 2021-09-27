@@ -153,7 +153,7 @@
 																<span style="color: #0000ff; font-size: small;"><?php echo $result['papers_desc'] ?></span>
 															</strong>
 														</td>
-														<td><a href="/webthuctap/webthuctap/admin/uploads/<?=$result['file']?>"><img src="images/download.png" width="25" height="25" style="display: block; margin-left: auto; margin-right: auto;"></a>
+														<td><a href="/webthuctapvnpt1/thuctapvnpt/admin/uploads/<?=$result['file']?>"><img src="images/download.png" width="25" height="25" style="display: block; margin-left: auto; margin-right: auto;"></a>
 														</td>
 													</tr>
 										 <?php

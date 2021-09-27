@@ -63,7 +63,7 @@
                             <td ><?php echo $result['departmentName'] ?></td>
                             <td ><?php echo $result['scanf_desc'] ?></td>
                             <td ><?php echo $result['scanf_file'] ?></td>
-                            <td style="vertical-align: middle;"><a href="/webthuctap/webthuctap/admin/uploads/<?=$result['scanf_file']?>"><img src="../images/download.png" width="30" height="30" ></a></td>
+                            <td style="vertical-align: middle;"><a href="/webthuctapvnpt1/thuctapvnpt/admin/uploads/<?=$result['scanf_file']?>"><img src="../images/download.png" width="30" height="30" ></a></td>
                             <td ><!-- <?php echo $result['cmt'] ?> --><a href="feedback.php?scanf_Id=<?php echo $result['scanf_Id'] ?>">Trả lời</a></td>
 
                             

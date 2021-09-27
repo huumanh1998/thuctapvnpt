@@ -177,7 +177,7 @@
                 </div>
                 <div class="detail">
                 	<p style="color: black; font-size:16px; font-weight: bold;">File chi tiết</p>
-                   <td><a href="/webthuctap/webthuctap/admin/uploads/<?=$result['file_forum']?>"><img src="images/download.png" width="25" height="25" ></a>
+                   <td><a href="/webthuctapvnpt1/thuctapvnpt/admin/uploads/<?=$result['file_forum']?>"><img src="images/download.png" width="25" height="25" ></a>
 														</td>
                   
                 </div>
