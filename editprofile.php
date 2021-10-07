@@ -112,7 +112,7 @@
 	    		</div>
 	    		<div class="clear"></div>
     		</div>
-			<form action="" method="post">
+			<form action="" method="post" style="font-size: 20px;">
 			<table class="tblone" style="width:100%;height: 100%; text-align:center;font-size: 20px;margin-bottom: 50px;">
 					<?php
 

@@ -226,7 +226,7 @@
                      ?>
                     <i style="color:#337ab7;font-size:17px;" class="fa fa-trash-o"></i>
                     <a style="color:#337ab7;font-size:15px;margin-left: 5px;font-weight:400;" 
-                    href="detailforum.php?id=<?=$id?>&xoa=<?=$result['binhluan_Id']?>">Xóa</a>
+                    onclick = "return confirm('Bạn có muốn xóa?')"href="detailforum.php?id=<?=$id?>&xoa=<?=$result['binhluan_Id']?>">Xóa</a>
                 <?php }?>
         
           <div class="comment-area-rep hide" id="comment-area-rep<?=$result['binhluan_Id']?>">
@@ -257,7 +257,7 @@
                      ?>
                     <i style="color:#337ab7;font-size:17px; margin-left:75px;" class="fa fa-trash-o"></i>
                     <a style="color:#337ab7;font-size:15px;margin-left: 5px;font-weight:400;"
-                    href="detailforum.php?id=<?=$id?>&xoa=<?=$result2['binhluan_Id']?>">Xóa</a>
+                    onclick = "return confirm('Bạn có muốn xóa?')"href="detailforum.php?id=<?=$id?>&xoa=<?=$result2['binhluan_Id']?>">Xóa</a>
                 <?php }?>
 		        	
 		        <?php

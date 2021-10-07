@@ -156,7 +156,7 @@
 								<td style="text-align:center;"><?php echo $result['title'] ?></td>
 								<td style="text-align:center;"><?php echo $result['desc_forum'] ?></td>
 								<td style="text-align:center;"><?php echo $fm->formatDate($result['date_forum']) ?></td>
-								<td style="max-width: 5%;height: auto;text-align:center;" ><a href="?id=<?php echo $result['forum_Id'] ?>">Xóa</a></td>
+								<td style="max-width: 5%;height: auto;text-align:center;" ><a onclick = "return confirm('Bạn có muốn xóa?')"href="?id=<?php echo $result['forum_Id'] ?>">Xóa</a></td>
 							</tr>
 						<?php
 							

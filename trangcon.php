@@ -156,7 +156,35 @@ $student = new student();?>
 <!-- Slider -->
 
 	
-<div id="wrapper_slide" style="margin-bottom: 20px;">
+<div id="wrapper_slide" style="margin-bottom: 20px;display:flex;">
+	<div id="wrapper_slide_left" style="margin-bottom: 20px;margin-left: 10px; width: 28%;display:flex;">
+		<div class="container_slide">
+		<div class="agile_banner_bottom_grids"style="width:1600px;">
+			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
+				<div class="agile_contact_grid_left">
+					<h3 class="w3l-title-slide" style="font-size: 21px; color:#ffb71c;font-weight: bold;">Liên Hệ</h3>
+					<div class="w3layouts_header-slide">
+						<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
+					</div>
+				</div>
+				<div class="agile_contact_grid_right agilew3_contact">
+					<h4><i class="fa fa-map-marker" aria-hidden="true"></i> Địa chỉ</h4>
+					<p>704 Phan Đình Phùng</p>
+					<h4><i class="fa fa-phone" aria-hidden="true"></i> Số điện thoại</h4>
+					<p>(84) 02603919997 - 02603913029 - 02603919388</p>
+					<h4><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</h4>
+					<p>udck@kontum.udn.vn</p>
+					<h4><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</h4>
+					<p>https://www.facebook.com/kontum.udn.vn</p>
+				</div>
+			</div>
+		
+			<div class="clearfix"> </div>
+		</div>
+		
+			</div>
+		</div>
+	<div id="wrapper_slide_right" style="margin-bottom: 20px;width: 72%;">
 		<div class="container">
 			<div style="position:relative;top:0;left:0;width:100%;overflow:hidden;">
 		        <!--#region Jssor Slider Begin -->
@@ -230,6 +258,8 @@ $student = new student();?>
 		    </div>	
 		</div class="clr"><div>
 		</div>
+	</div>
+		
 	</div>
 <!--  -->
 
@@ -380,7 +410,7 @@ $student = new student();?>
 
 <!-- //gallery -->
 <!-- contact -->
-<div class=contact-about style="margin-top:-30px">
+<!-- <div class=contact-about style="margin-top:-30px">
 <div id="mail" class="contact">
 	<div class="container">
 		<h3 class="w3l-title">Liên Hệ</h3>
@@ -421,7 +451,7 @@ $student = new student();?>
 		
 			</div>
 		</div> 
-	</div>
+	</div> -->
 </div>
 </div>
 <div class="clearfix"> </div> 
